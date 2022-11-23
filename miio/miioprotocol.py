@@ -25,7 +25,7 @@ class MiIOProtocol:
         token: str = None,
         start_id: int = 0,
         debug: int = 0,
-        lazy_discover: bool = True,
+        lazy_discover: bool = False,
         timeout: int = 5,
     ) -> None:
         """Create a :class:`Device` instance.
